@@ -32,7 +32,7 @@ int main()
     /* Check if the value is 3 to 6 */
     if ((val >= 3) && (val <= 6)) {
       count++;  /* add 1 to the count */
-    } else if (val == 10) {  /* Otherwise check if the card was 10, J, Q, or K */
+    } else if (val == 10){  /* Otherwise check if the card was 10, J, Q, or K */
       count--; /* minus 1 from the count */
     }
     printf("The current count is: %i\n", count);
